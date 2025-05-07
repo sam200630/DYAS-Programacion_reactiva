@@ -1,4 +1,4 @@
-package com.example.Controllers;
+package com.example.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +15,7 @@ public class ReactiveController {
     public String hello() {
         return "Hello, Reactive!";
     }
-    
+
     @GetMapping("/mono")
     public Mono<String> getMono() {
         return Mono.just("Hello, Mono!");
