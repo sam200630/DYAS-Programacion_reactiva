@@ -1,4 +1,5 @@
 # Taller sobre Operadores de Programación Reactiva
+# Integrantes: Andrea Sosa, David Medina, Juan Gomez y Samuel Rodriguez
 
 ## Objetivo
 
